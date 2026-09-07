@@ -1,0 +1,51 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+config.yaml
+*.local.*
+secrets/
+credentials/
+*credentials*.json
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Hermes runtime: conversations, personal data and downloaded assets
+.hermes/
+.hermes-runtime/
+hermes-agent/
+logs/
+sessions/
+memories/
+state/
+cache/
+backups/
+private/
+data/
+*.log
+*.db
+*.db-*
+*.sqlite*
+
+# Dependencies and build output
+.venv/
+venv/
+env/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.zip
